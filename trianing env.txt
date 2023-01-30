@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+python -m venv training
+=======
+python -m venv training
+>>>>>>> 4472ec1831db30706a8c5f6d4fb58dad42b4b88e
+training\Scripts\activate
