@@ -1,6 +1,7 @@
 # DTLN
 
-This is the official implementation of the Deep Transfer Learning for Low-resource Speech Enhancement paper.
+Link to official gthub
+https://github.com/breizhn/DTLN
 
 ## Notebooks
 
