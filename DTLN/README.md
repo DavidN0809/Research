@@ -1,8 +1,15 @@
-Link to dtln github
-https://github.com/breizhn/DTLN
+# DTLN
 
-Explanation of notebooks
-Attempt Prunining - not working, attempting to prune the model
-Attempt Resample - not working, will be the .py file to run on the le potato. Attempting to take any freq input, resample it down to 16khz process it, then resample back up to the original frequency.
-Working Realtime - Realtime audio processing with the pretrained models
-Untitiled1 - various testing, tensor sizes, if mic and headset works etc. Needs to be cleaned up
+This is the official implementation of the Deep Transfer Learning for Low-resource Speech Enhancement paper.
+
+## Notebooks
+
+- `Attempt Pruning`: This notebook is attempting to prune the model, but it is not currently working.
+- `Attempt Resample`: This notebook will be the .py file to run on the Le Potato. It attempts to take any frequency input, resample it down to 16kHz, process it, and then resample it back up to the original frequency. However, it is currently not working.
+- `Working Realtime`: This notebook demonstrates realtime audio processing with the pretrained models.
+- `Untitled1`: This notebook is for various testing, such as tensor sizes, microphone and headset functionality, etc. It needs to be cleaned up.
+
+## How to Use
+
+To use this implementation, clone the repository and run the desired notebook using Jupyter Notebook or Jupyter Lab.
+
