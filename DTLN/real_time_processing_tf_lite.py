@@ -40,7 +40,7 @@ output_details_2 = interpreter_2.get_output_details()
 states_1 = np.zeros(input_details_1[1]['shape']).astype('float32')
 states_2 = np.zeros(input_details_2[1]['shape']).astype('float32')
 # load audio file at 16k fs (please change)
-audio,fs = sf.read('/home/david/Documents/GitHub/Research-Data/16kHz/DNS-Challenge-16Khz/training_set/noisy/fileid_0.wav')
+audio,fs = sf.read('/home/david/Documents/GitHub/Research-Data/16kHz/DNS-Challenge-16Khz/training_set/noisy/fileid_39.wav')
 if fs != 16000:
     raise ValueError('This model only supports 16k sampling rate.')
 # preallocate output audio

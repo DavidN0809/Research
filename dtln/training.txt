@@ -1,1 +1,0 @@
-python3 train.py --data_dir /home/david/Documents/GitHub/Data/VCTK
