@@ -10,7 +10,3 @@ https://github.com/breizhn/DTLN
 - `Working Realtime`: This notebook demonstrates realtime audio processing with the pretrained models.
 - `Untitled1`: This notebook is for various testing, such as tensor sizes, microphone and headset functionality, etc. It needs to be cleaned up.
 
-## How to Use
-
-To use this implementation, clone the repository and run the desired notebook using Jupyter Notebook or Jupyter Lab.
-
