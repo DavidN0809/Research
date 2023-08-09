@@ -34,19 +34,32 @@ os.environ['TF_DETERMINISTIC_OPS'] = '1'
 
 
 
+# path to folder containing the noisy or mixed audio training files
+path_to_train_mix = '/dmc/VTCK-16kHz/train/noisy/'
+# path to folder containing the clean/speech files for training
+path_to_train_speech = '/dmc/VTCK-16kHz/train/clean/'
+# path to folder containing the noisy or mixed audio validation data
+path_to_val_mix = '/dmc/VTCK-16kHz/test/noisy/'
+# path to folder containing the clean audio validation data
+path_to_val_speech = '/dmc/VTCK-16kHz/test/clean/'
+
+
 
 # path to folder containing the noisy or mixed audio training files
-path_to_train_mix = '/home/david/Documents/GitHub/Research-Data/VTCK-16kHz/train/noisy/'
+#path_to_train_mix = '/dmc/DNS-Challenge/training_set/noisy/'
 # path to folder containing the clean/speech files for training
-path_to_train_speech = '/home/david/Documents/GitHub/Research-Data/VCTK-16kHz/train/clean/'
+#path_to_train_speech = '/dmc/DNS-Challenge/training_set/clean/'
 # path to folder containing the noisy or mixed audio validation data
-path_to_val_mix = '/home/david/Documents/GitHub/Research-Data/VTCK-16kHz/train/noisy/'
+#path_to_val_mix = '/dmc/DNS-Challenge/datasets/test_set/synthetic/no_reverb/noisy/'
 # path to folder containing the clean audio validation data
-path_to_val_speech = '/home/david/Documents/GitHub/Research-Data/VCTK-16kHz/test/clean/'
+#path_to_val_speech = '/dmc/DNS-Challenge/datasets/test_set/synthetic/no_reverb/clean/'
 
 
 # name your training run
-runName = 'DTLN_model'
+runName = 'VTCK_model'
+
+#runName = 'DNS_model'
+
 # create instance of the DTLN model class
 modelTrainer = DTLN_model()
 # build the model
